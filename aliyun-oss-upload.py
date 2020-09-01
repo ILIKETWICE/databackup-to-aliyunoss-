@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020-04-26 17:39
-# @Author  : wxl
-# @Site    : 
-# @File    : aliyun-oss-upload.py
-# @Software: PyCharm
 
 """
     实现的功能点如下：
