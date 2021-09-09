@@ -2,8 +2,6 @@
 
 **databackup-to-aliyunoss 是一个本地数据上传到阿里OSS的Python脚本。**
 
-**主要作用是：各个事业部下各项目组的Mysql、MongoDB备份数据分别使用此脚本上传到阿里OSS对应的bucket下的对应文件夹下。**
-
 # 项目文件解读
 
 - aliyun-oss-upload.py ：这个是上传数据所需脚本，直接使用即可，不需要改动。
@@ -71,15 +69,6 @@ python3 aliyun-oss-upload.py test/mongo/apache-jmeter-5.1.1.tgz /root/apache-jme
 
 ![JbBIdU.png](https://s1.ax1x.com/2020/04/30/JbBIdU.png)
 
-# 阿里OSS bucket名称及目录名称
-
-**阿里OSS bucket名称及目录名称的命名**根据事业部及项目组来命名，如下图：
-
-![JqnKUO.png](https://s1.ax1x.com/2020/04/30/JqnKUO.png)
-
-**相对应的bucket名称和目录名称，如下图：**
-
-![Jq1xW8.png](https://s1.ax1x.com/2020/04/30/Jq1xW8.png)
 
 # 子账号授权
 
